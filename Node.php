@@ -1,8 +1,7 @@
 <?php
 
 
-class Node
-{
+class Node{
     public $data;
     public $next;
 
@@ -15,6 +14,4 @@ class Node
     public function readNode(){
         return $this->data;
     }
-
-
 }
